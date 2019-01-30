@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'k8s_monitoring.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'polls',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'k8s_monitor',
+        'USER': 'songxitang',
+        'PASSWORD': 'Song@19901020',
+        'HOST': '172.16.10.80',
         'PORT': '3306'
     }
 }
